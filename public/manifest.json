@@ -1,0 +1,28 @@
+{
+  "name": "Poker Game",
+  "short_name": "Poker Game",
+  "description": "Pakistan's premier poker gaming platform offering Texas Hold'em, Teen Patti, Dragon vs Tiger and more. Earn real cash rewards!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#010408",
+  "theme_color": "#010408",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/poker-game-logo.webp",
+      "sizes": "192x192 512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/poker-game.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any"
+    }
+  ]
+}

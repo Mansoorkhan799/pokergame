@@ -1,0 +1,91 @@
+# robots.txt for pokergameapk.com.pk
+
+# ============================================
+# MAIN CRAWLER RULES
+# ============================================
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Priority pages
+Allow: /download-poker-game-apk
+Allow: /deposit-money-in-poker-game
+Allow: /withdraw-money-from-poker-game
+Allow: /poker-game-for-pc
+Allow: /about-us
+Allow: /blog
+Allow: /blog/how-to-create-poker-game-account
+Allow: /blog/how-to-login-poker-game
+Allow: /blog/how-to-deposit-money-in-poker-game
+Allow: /blog/how-to-withdraw-money-from-poker-game
+
+# Standard pages
+Allow: /contact-us
+Allow: /privacy
+Allow: /disclaimer
+
+# ============================================
+# AI BOT RESTRICTIONS (Training Prevention)
+# ============================================
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+# ============================================
+# SEARCH ENGINE BOTS (Explicitly Allow)
+# ============================================
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+# ============================================
+# SITEMAPS
+# ============================================
+
+Sitemap: https://pokergameapk.com.pk/sitemap-index.xml
+Sitemap: https://pokergameapk.com.pk/sitemap.xml
+Sitemap: https://pokergameapk.com.pk/image-sitemap.xml
