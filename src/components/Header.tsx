@@ -45,6 +45,9 @@ export default function Header() {
           <Link href="/about-us" className="text-white hover:text-accent font-medium transition-colors">
             About Us
           </Link>
+          <Link href="/blog" className="text-white hover:text-accent font-medium transition-colors">
+            Blog
+          </Link>
           <Link href="/contact-us" className="text-white hover:text-accent font-medium transition-colors">
             Contact Us
           </Link>
