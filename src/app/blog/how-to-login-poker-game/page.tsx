@@ -233,8 +233,8 @@ export default function HowToLoginPokerGame() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { href: "/blog/how-to-create-poker-game-account", label: "How to Create Poker Game Account" },
-              { href: "/blog/how-to-deposit-money-in-poker-game", label: "How to Deposit Money in Poker Game" },
-              { href: "/blog/how-to-withdraw-money-from-poker-game", label: "How to Withdraw Money from Poker Game" },
+              { href: "/deposit-money-in-poker-game", label: "Deposit Money in Poker Game" },
+              { href: "/withdraw-money-from-poker-game", label: "Withdraw Money from Poker Game" },
               { href: "/download-poker-game-apk", label: "Download Poker Game APK" },
             ].map((link, i) => (
               <Link key={i} href={link.href} className="flex items-center gap-2 text-gray-300 hover:text-accent transition-colors text-sm p-2 rounded-lg hover:bg-[#010408]">

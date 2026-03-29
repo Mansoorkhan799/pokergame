@@ -118,18 +118,6 @@ export async function GET() {
       priority: 0.85
     },
     {
-      url: '/blog/how-to-deposit-money-in-poker-game',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.85
-    },
-    {
-      url: '/blog/how-to-withdraw-money-from-poker-game',
-      lastMod: new Date().toISOString(),
-      changeFreq: 'monthly',
-      priority: 0.85
-    },
-    {
       url: '/blog/poker-game-pakistan-rules',
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',

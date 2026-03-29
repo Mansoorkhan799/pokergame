@@ -3,14 +3,14 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Poker Game Blog - Guides, Tips & How-To Articles 2026',
-  description: 'Poker Game blog with step-by-step guides for Pakistani players. Learn how to create account, login, deposit, and withdraw money in Poker Game. Latest poker tips 2026.',
+  description: 'Poker Game blog with guides for Pakistani players: account setup, login, rules, Teen Patti tips, and troubleshooting. For deposit and withdrawal steps, use the dedicated site guides.',
   keywords: ['poker game blog', 'poker game guides', 'poker game tips pakistan', 'poker game how to', 'poker game tutorials 2026'],
   alternates: {
     canonical: "https://pokergameapk.com.pk/blog",
   },
   openGraph: {
     title: 'Poker Game Blog - Guides, Tips & How-To Articles 2026',
-    description: 'Complete guides for Poker Game Pakistan. Learn account creation, login, deposits, withdrawals and more.',
+    description: 'Guides for Poker Game Pakistan: account creation, login, rules, and more. Deposit and withdrawal help lives on the main Deposit and Withdraw pages.',
     url: "https://pokergameapk.com.pk/blog",
     siteName: "Poker Game",
     type: "website",
@@ -35,24 +35,6 @@ const blogPosts = [
     readTime: "4 min read",
     date: "28 March 2026",
     icon: "🔑",
-  },
-  {
-    slug: "how-to-deposit-money-in-poker-game",
-    title: "How to Deposit Money in Poker Game",
-    description: "Comprehensive deposit guide for Poker Game Pakistan. Learn to deposit via JazzCash, EasyPaisa & Bank Card. Get a 100% first deposit bonus!",
-    category: "Deposit Guide",
-    readTime: "5 min read",
-    date: "28 March 2026",
-    icon: "💰",
-  },
-  {
-    slug: "how-to-withdraw-money-from-poker-game",
-    title: "How to Withdraw Money from Poker Game",
-    description: "Complete withdrawal guide for Poker Game. Withdraw your winnings via JazzCash, EasyPaisa, or Bank Card. Money processed in 5-30 minutes.",
-    category: "Withdrawal Guide",
-    readTime: "5 min read",
-    date: "28 March 2026",
-    icon: "💸",
   },
   {
     slug: "poker-game-pakistan-rules",

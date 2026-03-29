@@ -9,8 +9,8 @@ const BlogCategoryDropdown = () => {
   const categories = [
     { name: 'Create account', href: '/blog/how-to-create-poker-game-account' },
     { name: 'Login', href: '/blog/how-to-login-poker-game' },
-    { name: 'Deposit', href: '/blog/how-to-deposit-money-in-poker-game' },
-    { name: 'Withdraw', href: '/blog/how-to-withdraw-money-from-poker-game' },
+    { name: 'Deposit', href: '/deposit-money-in-poker-game' },
+    { name: 'Withdraw', href: '/withdraw-money-from-poker-game' },
   ];
 
   return (

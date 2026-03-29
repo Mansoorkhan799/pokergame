@@ -89,7 +89,17 @@ const nextConfig = {
       },
       {
         source: '/blog/:slug(tips-to-win.*)',
-        destination: '/blog/how-to-withdraw-money-from-poker-game',
+        destination: '/withdraw-money-from-poker-game',
+        permanent: true,
+      },
+      {
+        source: '/blog/how-to-deposit-money-in-poker-game',
+        destination: '/deposit-money-in-poker-game',
+        permanent: true,
+      },
+      {
+        source: '/blog/how-to-withdraw-money-from-poker-game',
+        destination: '/withdraw-money-from-poker-game',
         permanent: true,
       },
       {

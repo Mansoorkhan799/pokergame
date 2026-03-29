@@ -138,8 +138,8 @@ export default function TeenPattiBestEarningAppPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {[
               { href: "/blog/poker-game-pakistan-rules", label: "Poker Game Pakistan Rules" },
-              { href: "/blog/how-to-deposit-money-in-poker-game", label: "How to Deposit Money" },
-              { href: "/blog/how-to-withdraw-money-from-poker-game", label: "How to Withdraw Money" },
+              { href: "/deposit-money-in-poker-game", label: "Deposit Money in Poker Game" },
+              { href: "/withdraw-money-from-poker-game", label: "Withdraw Money from Poker Game" },
               { href: "/download-poker-game-apk", label: "Download Poker Game APK" },
             ].map((link) => (
               <Link

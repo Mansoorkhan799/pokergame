@@ -18,8 +18,6 @@ Allow: /about-us
 Allow: /blog
 Allow: /blog/how-to-create-poker-game-account
 Allow: /blog/how-to-login-poker-game
-Allow: /blog/how-to-deposit-money-in-poker-game
-Allow: /blog/how-to-withdraw-money-from-poker-game
 
 # Standard pages
 Allow: /contact-us
