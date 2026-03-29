@@ -128,6 +128,30 @@ export async function GET() {
       lastMod: new Date().toISOString(),
       changeFreq: 'monthly',
       priority: 0.85
+    },
+    {
+      url: '/blog/poker-game-pakistan-rules',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.85
+    },
+    {
+      url: '/blog/is-teen-patti-poker-game-best-earning-app-pakistan',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.85
+    },
+    {
+      url: '/blog/how-many-bind-mail-poker-game',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.85
+    },
+    {
+      url: '/blog/fix-ip-exceed-limit-poker-game-vpn',
+      lastMod: new Date().toISOString(),
+      changeFreq: 'monthly',
+      priority: 0.85
     }
   ];
 

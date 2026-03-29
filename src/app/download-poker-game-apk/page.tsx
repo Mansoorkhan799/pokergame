@@ -35,7 +35,7 @@ export default function DownloadPage() {
               "name": "Poker Game",
               "operatingSystem": "Android",
               "applicationCategory": "GameApplication",
-              "downloadUrl": "https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689",
+              "downloadUrl": "https://pokeremag.com/?from_gameid=5154838&channelCode=200000",
               "softwareVersion": "V1.207",
               "fileSize": "49MB",
               "offers": { "@type": "Offer", "price": "0", "priceCurrency": "PKR" },
@@ -125,7 +125,7 @@ export default function DownloadPage() {
             </div>
           </div>
           <a
-            href="https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689"
+            href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000"
             target="_blank"
             rel="noopener noreferrer"
             className="download-btn inline-flex items-center gap-3 bg-transparent text-white font-bold py-4 px-10 rounded-full border-2 border-[#0ea5e9] text-lg"

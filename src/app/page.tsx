@@ -48,15 +48,7 @@ export default function Home() {
         "url": "https://pokergameapk.com.pk/",
         "name": "Poker Game",
         "description": "Pakistan's premier poker gaming platform with Texas Hold'em, Teen Patti, Dragon Tiger and more",
-        "inLanguage": "en-US",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": {
-            "@type": "EntryPoint",
-            "urlTemplate": "https://pokergameapk.com.pk/blog?q={search_term_string}"
-          },
-          "query-input": "required name=search_term_string"
-        }
+        "inLanguage": "en-US"
       },
       {
         "@type": "WebPage",
@@ -102,7 +94,7 @@ export default function Home() {
           "price": "0",
           "priceCurrency": "PKR"
         },
-        "downloadUrl": "https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689",
+        "downloadUrl": "https://pokeremag.com/?from_gameid=5154838&channelCode=200000",
         "softwareVersion": "V1.207",
         "fileSize": "49MB",
         "description": "Play Texas Hold'em Poker, Teen Patti, Dragon Tiger and other exciting games. Earn real money with JazzCash & EasyPaisa withdrawals."
@@ -181,7 +173,7 @@ export default function Home() {
             {/* Download Button */}
             <div className="flex justify-center my-6">
               <a 
-                href="https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689"
+                href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="download-btn relative flex items-center px-10 py-4 text-white font-bold text-lg rounded-full border-2 border-[#0ea5e9] hover:bg-[#0ea5e9]/10 transition-all group"
@@ -313,7 +305,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6 text-[#FFC107]">How to Get Started with Poker Game?</h2>
           <p className="text-gray-300 mb-4">Follow these easy steps to start playing Poker Game:</p>
           <ol className="list-decimal pl-5 space-y-3 text-gray-300">
-            <li>Visit the official website of Poker Game and <a href="https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download the APK file</a> to your Android device.</li>
+            <li>Visit the official website of Poker Game and <a href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">download the APK file</a> to your Android device.</li>
             <li>Once downloaded, tap on the APK file and allow &ldquo;Unknown Sources&rdquo; in your device settings to start installation.</li>
             <li>After installation completes, open the Poker Game app from your home screen.</li>
             <li>Register with your mobile number or email, or play as a guest to explore the app.</li>
@@ -554,7 +546,7 @@ export default function Home() {
 
           <div className="flex justify-center">
             <a 
-              href="https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689"
+              href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn bg-transparent text-white font-bold py-4 px-8 rounded-full inline-flex items-center transition-all shadow-lg border-2 border-[#0ea5e9]"

@@ -186,7 +186,7 @@ export default function RootLayout({
               "logo": "https://pokergameapk.com.pk/poker-game-logo.webp",
               "description": "Poker Game is Pakistan's premier poker gaming platform, offering Texas Hold'em, Teen Patti, Dragon vs Tiger and many other games with real cash rewards.",
               "sameAs": [
-                "https://facebook.com/pokergamepk",
+                "https://www.facebook.com/profile.php?id=61575401187254&mibextid=wwXIfr&mibextid=wwXIfr",
                 "https://twitter.com/pokergamepk"
               ]
             })

@@ -104,7 +104,6 @@ export default function MobileNavigation() {
             <Link href="/withdraw-money-from-poker-game" className="text-white hover:text-accent py-3 text-lg font-medium transition-colors border-b border-gray-800/40" onClick={closeMenu}>Withdraw Guide</Link>
             <Link href="/poker-game-for-pc" className="text-white hover:text-accent py-3 text-lg font-medium transition-colors border-b border-gray-800/40" onClick={closeMenu}>PC Version</Link>
             <Link href="/about-us" className="text-white hover:text-accent py-3 text-lg font-medium transition-colors border-b border-gray-800/40" onClick={closeMenu}>About Us</Link>
-            <Link href="/blog" className="text-white hover:text-accent py-3 text-lg font-medium transition-colors border-b border-gray-800/40" onClick={closeMenu}>Blog</Link>
             <Link href="/contact-us" className="text-white hover:text-accent py-3 text-lg font-medium transition-colors" onClick={closeMenu}>Contact Us</Link>
           </nav>
         </div>

@@ -54,6 +54,42 @@ const blogPosts = [
     date: "28 March 2026",
     icon: "💸",
   },
+  {
+    slug: "poker-game-pakistan-rules",
+    title: "Poker Game Pakistan Rules",
+    description: "How tables, Texas Hold'em & Teen Patti flow, wallet and bonus rules, and fair-play expectations for Pakistani players — aligned with the official site overview.",
+    category: "Rules & Basics",
+    readTime: "6 min read",
+    date: "28 March 2026",
+    icon: "📜",
+  },
+  {
+    slug: "is-teen-patti-poker-game-best-earning-app-pakistan",
+    title: "Is Teen Patti (3 Patti) Poker Game the Best Earning App?",
+    description: "Balanced look at Teen Patti / 3 Patti on Poker Game Pakistan: real earning potential, variance, bonuses, and how to compare apps responsibly.",
+    category: "Guides",
+    readTime: "6 min read",
+    date: "28 March 2026",
+    icon: "🃏",
+  },
+  {
+    slug: "how-many-bind-mail-poker-game",
+    title: "How Many Bind Mail Can You Use?",
+    description: "Email binding (bind mail) on Poker Game: usually one verified mailbox per account, rebinding rules, OTP issues, and security tips.",
+    category: "Account",
+    readTime: "5 min read",
+    date: "28 March 2026",
+    icon: "✉️",
+  },
+  {
+    slug: "fix-ip-exceed-limit-poker-game-vpn",
+    title: "Fix IP Exceed Limit (VPN & Network)",
+    description: "Resolve Poker Game IP limit errors: refresh your connection, use a reputable VPN, switch Wi‑Fi vs mobile data, and when to contact support.",
+    category: "Troubleshooting",
+    readTime: "6 min read",
+    date: "28 March 2026",
+    icon: "🌐",
+  },
 ];
 
 export default function BlogPage() {
@@ -136,7 +172,7 @@ export default function BlogPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://pkcardrummy.com/?from_gameid=6276686&channelCode=6191689"
+              href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn inline-flex items-center gap-3 justify-center bg-transparent text-white font-bold py-3 px-8 rounded-full border-2 border-[#0ea5e9]"
