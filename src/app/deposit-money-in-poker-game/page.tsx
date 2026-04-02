@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     url: "https://pokergameapk.com.pk/deposit-money-in-poker-game",
     siteName: "Poker Game",
     type: "article",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game-add-money.webp', width: 1200, height: 630, alt: 'How to Deposit Money in Poker Game' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Deposit Money in Poker Game - Complete Guide 2026',
+    description: 'Deposit via JazzCash, EasyPaisa, or Bank Card. Step-by-step guide for Pakistani players with 100% bonus.',
+    images: ['https://pokergameapk.com.pk/poker-game-add-money.webp'],
   },
 };
 

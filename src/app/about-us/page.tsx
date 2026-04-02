@@ -27,21 +27,44 @@ export const metadata: Metadata = {
     siteName: "Poker Game",
     locale: "en_US",
     type: "website",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'About Poker Game Pakistan' }],
   },
   twitter: {
     card: "summary_large_image",
     title: 'About Poker Game - Pakistan\'s Premier Poker Gaming Platform',
     description: 'Learn about Poker Game, our mission to provide the best poker gaming experience in Pakistan with real cash rewards.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
 };
 
 export default function AboutPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pokergameapk.com.pk" },
+      { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://pokergameapk.com.pk/about-us" }
+    ]
+  };
+
   return (
     <div className="min-h-screen py-12 px-4">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+          />
+
+          <nav aria-label="Breadcrumb" className="text-sm text-gray-400 mb-8">
+            <Link href="/" className="hover:text-accent">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">About Us</span>
+          </nav>
+
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Us</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Poker Game — Pakistan&apos;s #1 Poker Platform</h1>
             <p className="text-gray-400 text-lg">The team behind Pakistan&apos;s #1 Poker App</p>
           </div>
           
@@ -66,7 +89,7 @@ export default function AboutPage() {
               <div className="md:w-2/3 md:pl-4 lg:pl-6">
                 <div className="prose prose-lg max-w-none">
                   <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                    Welcome to <a href="https://www.pokergameapk.com.pk/" className="text-accent hover:text-accent font-semibold" target="_blank" rel="noopener noreferrer">pokergameapk.com.pk</a>, Pakistan&apos;s most trusted platform for Poker Game information, guides, and resources. <Link href="/" className="text-accent hover:underline font-semibold">Poker Game</Link> is one of Pakistan&apos;s most popular online poker apps, with over <span className="font-bold text-accent">500K+ users</span> across the country. <a href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Poker Game</a> now and join thousands of players winning real cash every day.
+                    Welcome to <a href="https://pokergameapk.com.pk/" className="text-accent hover:text-accent font-semibold">pokergameapk.com.pk</a>, Pakistan&apos;s most trusted platform for Poker Game information, guides, and resources. <Link href="/" className="text-accent hover:underline font-semibold">Poker Game</Link> is one of Pakistan&apos;s most popular online poker apps, with over <span className="font-bold text-accent">500K+ users</span> across the country. <a href="https://pokeremag.com/?from_gameid=5154838&channelCode=200000" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">Download Poker Game</a> now and join thousands of players winning real cash every day.
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed">
                     Hundreds of players in Pakistan are playing Texas Hold&apos;em Poker, Teen Patti, Dragon vs Tiger, and other exciting games on Poker Game — earning real money on a daily and weekly basis through fast JazzCash and EasyPaisa withdrawals.

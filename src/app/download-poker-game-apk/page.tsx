@@ -17,6 +17,13 @@ export const metadata: Metadata = {
     url: "https://pokergameapk.com.pk/download-poker-game-apk",
     siteName: "Poker Game",
     type: "website",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Download Poker Game APK for Android Pakistan' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Download Poker Game APK Latest Version for Android 2026',
+    description: 'Official Poker Game APK download guide for Pakistan. Play Texas Hold\'em & earn real money with JazzCash & EasyPaisa.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
 };
 

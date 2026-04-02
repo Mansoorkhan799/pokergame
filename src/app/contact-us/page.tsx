@@ -11,11 +11,13 @@ export const metadata: Metadata = {
     url: 'https://pokergameapk.com.pk/contact-us',
     siteName: 'Poker Game',
     type: 'website',
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Contact Poker Game Support Pakistan' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Contact Us - Poker Game',
     description: 'Get in touch with Poker Game support team for any queries or assistance.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
   alternates: {
     canonical: 'https://pokergameapk.com.pk/contact-us',
@@ -27,10 +29,31 @@ export const metadata: Metadata = {
 };
 
 export default function Contact() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pokergameapk.com.pk" },
+      { "@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://pokergameapk.com.pk/contact-us" }
+    ]
+  };
+
   return (
     <div className="min-h-screen py-12 px-4">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
+
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+          />
+
+          <nav aria-label="Breadcrumb" className="text-sm text-gray-400 mb-8">
+            <Link href="/" className="hover:text-accent">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Contact Us</span>
+          </nav>
+
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Contact Us</h1>
             <p className="text-lg text-gray-400">We&apos;re here to help you with all Poker Game queries!</p>

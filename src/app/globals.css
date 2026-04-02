@@ -184,10 +184,6 @@ footer {
   contain: layout;
 }
 
-body {
-  font-display: swap;
-}
-
 * {
   font-family: inherit;
 }

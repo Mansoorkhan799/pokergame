@@ -4,7 +4,7 @@ import BlogPostSchema from "@/components/BlogPostSchema";
 import HowToSchema from "@/components/HowToSchema";
 
 export const metadata: Metadata = {
-  title: "How to Fix IP Exceed Limit on Poker Game — VPN & Network Tips 2026",
+  title: "Fix IP Exceed Limit on Poker Game — VPN Guide 2026",
   description:
     "Fix Poker Game IP exceed limit errors: use a reputable VPN safely, reset router, clear bad sessions, and when to contact support instead.",
   keywords: [

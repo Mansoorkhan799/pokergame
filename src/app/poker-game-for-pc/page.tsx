@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     url: "https://pokergameapk.com.pk/poker-game-for-pc",
     siteName: "Poker Game",
     type: "article",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Play Poker Game on PC using BlueStacks emulator' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Poker Game for PC - Play on Windows & Mac 2026',
+    description: 'How to play Poker Game on PC using BlueStacks. Full guide for Pakistani players — Windows & Mac.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
 };
 

@@ -27,6 +27,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Poker Game Pakistan - Free Download Official APK 2026",
     description: "Pakistan's #1 poker platform. Join 500K+ players. Play Texas Hold'em & more. Earn real money with JazzCash & EasyPaisa.",
+    url: "https://pokergameapk.com.pk",
+    siteName: "Poker Game",
     images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: "Poker Game Pakistan" }],
     type: 'website'
   },
@@ -167,7 +169,7 @@ export default function Home() {
             </div>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              <Link href="/" className="text-accent hover:underline font-semibold">Poker Game</Link> is Pakistan&apos;s most thrilling online poker platform where you can play Texas Hold&apos;em, Teen Patti, Dragon vs Tiger, and 30+ exciting casino games. Experience world-class poker graphics, smooth gameplay, and real cash rewards. Download now and start winning with fast withdrawals via JazzCash and EasyPaisa!
+              <strong className="text-accent font-semibold">Poker Game</strong> is Pakistan&apos;s most thrilling online poker platform where you can play Texas Hold&apos;em, Teen Patti, Dragon vs Tiger, and 30+ exciting casino games. Experience world-class poker graphics, smooth gameplay, and real cash rewards. Download now and start winning with fast withdrawals via JazzCash and EasyPaisa!
             </p>
 
             {/* Download Button */}

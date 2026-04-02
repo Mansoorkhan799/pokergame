@@ -3,7 +3,7 @@ import Link from "next/link";
 import BlogPostSchema from "@/components/BlogPostSchema";
 
 export const metadata: Metadata = {
-  title: "Poker Game Pakistan Rules — How Tables, Bonuses & Fair Play Work 2026",
+  title: "Poker Game Pakistan Rules — Tables, Bonuses & Fair Play",
   description:
     "Understand Poker Game rules in Pakistan: Texas Hold'em basics, Teen Patti-style tables, wallet limits, bonuses, and fair-play expectations before you play.",
   keywords: [

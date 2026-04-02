@@ -11,11 +11,13 @@ export const metadata: Metadata = {
     url: 'https://pokergameapk.com.pk/disclaimer',
     siteName: 'Poker Game',
     type: 'website',
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Poker Game Legal Disclaimer' }],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Disclaimer - Poker Game',
     description: 'Legal disclaimer and important information about Poker Game.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
   alternates: {
     canonical: 'https://pokergameapk.com.pk/disclaimer',
@@ -27,10 +29,40 @@ export const metadata: Metadata = {
 };
 
 export default function Disclaimer() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pokergameapk.com.pk" },
+      { "@type": "ListItem", "position": 2, "name": "Disclaimer", "item": "https://pokergameapk.com.pk/disclaimer" }
+    ]
+  };
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://pokergameapk.com.pk/disclaimer",
+    "url": "https://pokergameapk.com.pk/disclaimer",
+    "name": "Disclaimer - Poker Game",
+    "description": "Read the disclaimer for Poker Game. Important legal information about the use of this website and third-party poker gaming platforms.",
+    "inLanguage": "en-US",
+    "isPartOf": { "@type": "WebSite", "@id": "https://pokergameapk.com.pk", "url": "https://pokergameapk.com.pk" }
+  };
+
   return (
     <div className="min-h-screen py-12 px-4">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
+
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+
+          <nav aria-label="Breadcrumb" className="text-sm text-gray-400 mb-8">
+            <Link href="/" className="hover:text-accent">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Disclaimer</span>
+          </nav>
+
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Disclaimer</h1>
             <p className="text-lg text-gray-400">Last Updated: March 28, 2026</p>

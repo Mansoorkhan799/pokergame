@@ -11,6 +11,13 @@ export const metadata: Metadata = {
     url: 'https://pokergameapk.com.pk/privacy',
     siteName: 'Poker Game',
     type: 'website',
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Poker Game Privacy Policy' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Privacy Policy - Poker Game',
+    description: 'Learn how Poker Game protects your personal information and data in Pakistan.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
   alternates: {
     canonical: 'https://pokergameapk.com.pk/privacy',
@@ -18,10 +25,40 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://pokergameapk.com.pk" },
+      { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://pokergameapk.com.pk/privacy" }
+    ]
+  };
+
+  const webPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://pokergameapk.com.pk/privacy",
+    "url": "https://pokergameapk.com.pk/privacy",
+    "name": "Privacy Policy - Poker Game",
+    "description": "Read Poker Game privacy policy to understand how we collect, use, and protect your personal information.",
+    "inLanguage": "en-US",
+    "isPartOf": { "@type": "WebSite", "@id": "https://pokergameapk.com.pk", "url": "https://pokergameapk.com.pk" }
+  };
+
   return (
     <div className="min-h-screen py-12 px-4">
       <div className="container mx-auto">
         <div className="max-w-4xl mx-auto">
+
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageSchema) }} />
+
+          <nav aria-label="Breadcrumb" className="text-sm text-gray-400 mb-8">
+            <Link href="/" className="hover:text-accent">Home</Link>
+            <span className="mx-2">/</span>
+            <span className="text-white">Privacy Policy</span>
+          </nav>
+
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Privacy Policy</h1>
             <p className="text-lg text-gray-400">Last Updated: March 28, 2026</p>

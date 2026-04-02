@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Poker Game Blog - Guides, Tips & How-To Articles 2026',
-  description: 'Poker Game blog with guides for Pakistani players: account setup, login, rules, Teen Patti tips, and troubleshooting. For deposit and withdrawal steps, use the dedicated site guides.',
+  description: 'Poker Game guides for Pakistan: create account, login, rules, Teen Patti tips & troubleshooting. Deposit & withdrawal help on dedicated pages.',
   keywords: ['poker game blog', 'poker game guides', 'poker game tips pakistan', 'poker game how to', 'poker game tutorials 2026'],
   alternates: {
     canonical: "https://pokergameapk.com.pk/blog",
@@ -14,6 +14,13 @@ export const metadata: Metadata = {
     url: "https://pokergameapk.com.pk/blog",
     siteName: "Poker Game",
     type: "website",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game.webp', width: 1200, height: 630, alt: 'Poker Game Blog - Guides & Tips Pakistan' }],
+  },
+  twitter: {
+    card: 'summary_large_image' as const,
+    title: 'Poker Game Blog - Guides, Tips & How-To Articles 2026',
+    description: 'Poker Game guides for Pakistan: account setup, login, rules & troubleshooting.',
+    images: ['https://pokergameapk.com.pk/poker-game.webp'],
   },
 };
 

@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     url: "https://pokergameapk.com.pk/withdraw-money-from-poker-game",
     siteName: "Poker Game",
     type: "article",
+    images: [{ url: 'https://pokergameapk.com.pk/poker-game-withdraw-money.webp', width: 1200, height: 630, alt: 'How to Withdraw Money from Poker Game' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'How to Withdraw Money from Poker Game - Complete Guide 2026',
+    description: 'Withdraw via JazzCash, EasyPaisa, or Bank Card in 5–30 minutes. Step-by-step guide for Poker Game Pakistan.',
+    images: ['https://pokergameapk.com.pk/poker-game-withdraw-money.webp'],
   },
 };
 
